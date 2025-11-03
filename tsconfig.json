@@ -9,10 +9,6 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "resolveJsonModule": true,
-    "declaration": true,
-    "declarationMap": true,
-    "sourceMap": true,
     "moduleResolution": "node"
   },
   "include": ["server.ts"],
@@ -20,7 +16,7 @@
 }
 ```
 
-Save, push:
+Save. Then:
 ```
 git add .
 git commit -m "Fix tsconfig"
