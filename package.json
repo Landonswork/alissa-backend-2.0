@@ -28,10 +28,3 @@
     "node": "18.x"
   }
 }
-```
-
-Save, then:
-```
-git add .
-git commit -m "Fix package versions"
-git push origin master
