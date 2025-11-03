@@ -1,23 +1,16 @@
 {
-  "compilerOptions": {
-    "target": "ES2020",
-    "module": "ESNext",
-    "lib": ["ES2020"],
-    "outDir": "./dist",
-    "rootDir": "./",
-    "strict": true,
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "moduleResolution": "node"
-  },
-  "include": ["server.ts"],
-  "exclude": ["node_modules"]
+"compilerOptions": {
+"target": "ES2020",
+"module": "ESNext",
+"lib": ["ES2020"],
+"outDir": "./dist",
+"rootDir": "./",
+"strict": true,
+"esModuleInterop": true,
+"skipLibCheck": true,
+"forceConsistentCasingInFileNames": true,
+"moduleResolution": "node"
+},
+"include": ["server.ts"],
+"exclude": ["node_modules"]
 }
-```
-
-Save. Then:
-```
-git add .
-git commit -m "Fix tsconfig"
-git push origin master
