@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "lib": ["ES2020"],
+    "outDir": "./dist",
+    "rootDir": "./",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true
+  },
+  "include": ["server.ts"],
+  "exclude": ["node_modules"]
+}
+```
+
+---
+
+## 📝 FILE 4: .env.example
+
+Create a file called `.env.example` and paste this:
+```
+PORT=5000
+
+TWILIO_ACCOUNT_SID=your_value
+TWILIO_AUTH_TOKEN=your_value
+TWILIO_PHONE_NUMBER=+1234567890
+
+GMAIL_USER=your-email@gmail.com
+GMAIL_APP_PASSWORD=your_16_char_password
